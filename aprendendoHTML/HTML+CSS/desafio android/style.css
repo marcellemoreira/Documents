@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: 'droid';
+  src: url('idroid.otf') format('opentype');
+
+}
+
+
+  :root{
+    --fontepadrao: Arial, verdana, sans-serif;
+    --fontedestaque: 'Bebas Neue';
+  }
+
+
+body{
+    background-color: #d2f4c7;
+    margin:  0px auto;
+    font-family: var(--fontepadrao);
+}
+header{
+  background-image: linear-gradient( to top,#175a45, #4ddcaf ); 
+  padding: 20px; 
+  
+  
+}
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: var(--fontedestaque);
+    
+}
+header > p {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+ nav > a{
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  font-weight: bold;
+  
+}
+div:hover {
+  background-color: #25a47cb6;
+  width: 500px;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 15%;
+}
+main{
+  
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 10px;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 5px 10px #0f372a9b;
+}
+main img{
+  width: 100%;
+}
+  h2{
+  font-family: "droid";
+  font-size: 2em;
+  color: #175a45;
+  margin: 30px;
+}
+p{
+  
+  text-align:justify;
+  margin: 30px;
+  
+}
+.android{
+  text-decoration: none;
+  color: #175a45;
+  font-weight: bold;
+}
+.google{
+  text-decoration: none;
+  color: #175a45;
+  font-weight: bold;
+}
+h3{
+  background-image: linear-gradient( to right, #4ddcaf4d, white ); 
+  font-family: "droid";
+  font-size: 1.3em;
+  color: #175a45;
+  margin: 30px;
+}
+img{
+  display: block;
+  margin: 0px auto;
+}
+main > #video{
+  
+  width: 1000px;
+  background-color: #175a45;
+  display: block;
+  
+}
+main > #extra {
+  width: 900px;
+  margin: auto;
+  height: 600px;
+  background-color: #bdebbd;
+  border-radius: 3%;
+  box-shadow: 5px 5px 10px #0f372a9b;
+}
+#extra > h4{
+  background-color: #067436;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+}
+ul{
+  list-style-type: '\2714\0020\0020';
+  columns: 2;
+  list-style-position: inside;
+}
+footer{
+  background-color: #175a45;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+}
+#final {
+  padding-bottom: 45px;
+}
